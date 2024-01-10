@@ -1,6 +1,7 @@
 {
-  "name": "egg-dora-uploadfile",
+  "name": "@zyws/egg-dora-uploadfile",
   "version": "1.0.2",
+  "private": false,
   "description": "uploadFile",
   "eggPlugin": {
     "name": "doraUploadFile"
@@ -11,9 +12,9 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "@koa/multer": "3.0.2",
     "ali-oss": "^6.2.1",
     "await-stream-ready": "^1.0.1",
-    "koa-multer": "^1.0.2",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "qiniu": "^7.2.2",

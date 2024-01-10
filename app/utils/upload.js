@@ -11,7 +11,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const multer = require('koa-multer')
+const multer = require('@koa/multer')
 
 // 默认静态目录
 let publicDir = ''
